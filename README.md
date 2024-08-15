@@ -1,8 +1,3 @@
----
-title: My first HackMD note (change me!)
-tags: [Tag(change me!)]
-
----
 
 # Projec Shark Attack
 
