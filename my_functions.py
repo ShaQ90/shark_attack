@@ -73,6 +73,9 @@ def cleaning_tool(df):
     df
     return df
 
+
+#Fuction that were made with AI help 
+
 def printing_is():
     print("is fun fun fun")
     return 0    
@@ -112,6 +115,7 @@ def classify_time(time_str):
     # If unable to classify, return NaN
     return np.nan
 
+#Function not working 100%, still miss some dates that could be formated
 def convert_to_dates(data):
     # Define possible date formats
     date_formats = ["%d %b %Y", "%d-%b-%Y"]

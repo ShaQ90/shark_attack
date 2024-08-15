@@ -60,8 +60,7 @@ def format_age (age):
                 if isinstance(numbers[0], int):
                     return (total/len(numbers))
                     
-                
-        
+  
 
 def cleaning_tool(df):
     df = clean_invalid_columns(df)
@@ -73,6 +72,9 @@ def cleaning_tool(df):
     df.Age = df.Age.apply(format_age)
     df
     return df
+
+
+#Fuction that were made with AI help 
 
 def printing_is():
     print("is fun fun fun")
@@ -113,6 +115,7 @@ def classify_time(time_str):
     # If unable to classify, return NaN
     return np.nan
 
+#Function not working 100%, still miss some dates that could be formated
 def convert_to_dates(data):
     # Define possible date formats
     date_formats = ["%d %b %Y", "%d-%b-%Y"]
