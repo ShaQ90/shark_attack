@@ -60,8 +60,7 @@ def format_age (age):
                 if isinstance(numbers[0], int):
                     return (total/len(numbers))
                     
-                
-        
+  
 
 def cleaning_tool(df):
     df = clean_invalid_columns(df)
@@ -76,8 +75,7 @@ def cleaning_tool(df):
 
 def printing_is():
     print("is fun fun fun")
-    return 0
-
+    return 0    
 def classify_time(time_str):
     # Define default classification
     time_str = str(time_str).strip().lower()
