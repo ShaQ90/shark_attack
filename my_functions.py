@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import re
+from datetime import datetime
+from datetime import datetime
 
 #Cleaning tools fucntions 
 
@@ -111,5 +113,23 @@ def classify_time(time_str):
         pass
     # If unable to classify, return NaN
     return np.nan
+
+def convert_to_dates(data):
+    # Define possible date formats
+    date_formats = ["%d %b %Y", "%d-%b-%Y"]
+    data = str(data)
+  
+    # Try converting the string to a date object using the defined formats
+    for date_format in date_formats:
+        try:
+            # Attempt to parse the string using the current format
+            date_obj = datetime.strptime(data, date_format).date()
+            # If successful, append the date object to our list
+            return date_obj
+            break
+            
+        except ValueError: 
+            return data
+            continue
 
 
