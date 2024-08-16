@@ -1,12 +1,12 @@
 
-# Porject Shark Attack :shark: :shark: :shark:
+# Project Shark Attack :shark: :shark: :shark:
 
 ###### The team:
 
 :memo: Johana , Tiago, Konstantin, Jean Philippe :memo: 
 
 
-### First Porject whit Data Analytics  
+### First Project whit Data Analytics  
 Day one:
 
 - [x] Define a Road Map
