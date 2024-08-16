@@ -3,7 +3,7 @@
 
 ###### The team:
 
-:memo: Johana , Tiago, Konstantin, Jean Pilippe :memo: 
+:memo: Johana , Tiago, Konstantin, Jean Philippe :memo: 
 
 
 ### First Porject whit Data Analytics  
